@@ -1,0 +1,23 @@
+artifact_path: /mnt/d/Programming/Softuni/Artificial Intelligence 2025/Deep Learning/softuni-dl-2025/Project/mlruns/1/models/m-b53ba41c9250432c96dadc3badfd36b9/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.9
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.6.0+cu124
+mlflow_version: 3.9.0
+model_id: m-b53ba41c9250432c96dadc3badfd36b9
+model_size_bytes: 4538447
+model_uuid: m-b53ba41c9250432c96dadc3badfd36b9
+prompts: null
+run_id: c98ecbd9b5b7411fad9cc7935d0d971d
+utc_time_created: '2026-02-18 17:52:40.666357'
