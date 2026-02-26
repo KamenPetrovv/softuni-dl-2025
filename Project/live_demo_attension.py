@@ -81,7 +81,7 @@ resnet = InceptionResnetV1(pretrained='vggface2').eval().to(DEVICE)
 
 print("Loading Cross-Attention Temporal Model...")
 model = CrossAttentionActiveSpeakerModel(hidden_size=128).to(DEVICE)
-model.load_state_dict(torch.load("../best_model.pth", map_location=DEVICE, weights_only=True))
+model.load_state_dict(torch.load("best_model.pth", map_location=DEVICE, weights_only=True))
 model.eval()
 
 v_transform = transforms.Compose([
